@@ -17,7 +17,7 @@
     "copy:lo-smartcontract-docs": "git submodule update --remote --merge && rimraf docs/limit-order-protocol/smart-contract/* && cp -R git-submodules/limit-order-protocol/docgen/docs/* docs/limit-order-protocol/smart-contract/ && touch docs/limit-order-protocol/smart-contract/_category_.json && echo '{\"label\": \"Smart contracts\",\"position\": 4}' > docs/limit-order-protocol/smart-contract/_category_.json"
   },
   "dependencies": {
-    "@docusaurus/core": "2.1.0",
+    "@docusaurus/core": "2.3.1",
     "@docusaurus/preset-classic": "2.4.3",
     "@mdx-js/react": "^1.6.21",
     "@svgr/webpack": "^5.5.0",
